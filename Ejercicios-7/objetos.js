@@ -7,7 +7,6 @@ const data = {
 }
 
 let varEdad = data.edad
-console.log(varEdad)
 
 const personas = [ 
     data, 
@@ -15,7 +14,6 @@ const personas = [
     {nombre: 'Gabriel', apellido: 'Quevedo', edad: 26, altura: 1.77, eresDesarrollador: false}
 ]
 
-console.log(personas)
-
 const listaPorEdad = [...personas.sort((a, b) => a.edad - b.edad)]
+
 console.log(listaPorEdad)
