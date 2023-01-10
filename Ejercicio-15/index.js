@@ -1,6 +1,6 @@
-let nombre = 'Luciano'
+const nombre = 'Luciano'
 
-let apellido = 'Montilla'
+const apellido = 'Montilla'
 
 const nombreCompleto = { nombre, apellido }
 
